@@ -1,7 +1,7 @@
-package pers.xin.factory.impl;
+package pers.xin.simpleFactory.impl;
 
 import lombok.Data;
-import pers.xin.factory.inter.IOperation;
+import pers.xin.simpleFactory.inter.IOperation;
 
 /**
  * 抽象计算工具类

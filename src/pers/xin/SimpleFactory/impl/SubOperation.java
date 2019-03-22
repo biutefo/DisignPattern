@@ -1,7 +1,6 @@
-package pers.xin.factory.impl;
+package pers.xin.simpleFactory.impl;
 
 import lombok.Data;
-import pers.xin.factory.impl.AbstractOperation;
 
 /**
  * 减法操作工具类

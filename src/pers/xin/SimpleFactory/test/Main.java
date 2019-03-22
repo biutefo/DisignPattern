@@ -1,7 +1,7 @@
-package pers.xin.factory.test;
+package pers.xin.simpleFactory.test;
 
-import pers.xin.factory.impl.AbstractOperation;
-import pers.xin.factory.OpertationFactory;
+import pers.xin.simpleFactory.impl.AbstractOperation;
+import pers.xin.simpleFactory.OpertationFactory;
 
 /**
  * 简单工厂模式实现计算器

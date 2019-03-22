@@ -1,10 +1,10 @@
-package pers.xin.factory;
+package pers.xin.simpleFactory;
 
-import pers.xin.factory.impl.AddOperation;
-import pers.xin.factory.impl.DivOperation;
-import pers.xin.factory.impl.MulOperation;
-import pers.xin.factory.impl.SubOperation;
-import pers.xin.factory.inter.IOperation;
+import pers.xin.simpleFactory.impl.AddOperation;
+import pers.xin.simpleFactory.impl.DivOperation;
+import pers.xin.simpleFactory.impl.MulOperation;
+import pers.xin.simpleFactory.impl.SubOperation;
+import pers.xin.simpleFactory.inter.IOperation;
 
 /**
  * 创建运算工具类的工厂
