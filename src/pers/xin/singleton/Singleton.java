@@ -8,7 +8,7 @@ public class Singleton {
     private Singleton() {
         synchronized (Singleton.class) {
             if (!flag) {
-                flag=true;
+                flag = true;
                 System.out.println("生成了一个实例。");
             } else {
                 throw new RuntimeException("单例模式被侵犯！");
