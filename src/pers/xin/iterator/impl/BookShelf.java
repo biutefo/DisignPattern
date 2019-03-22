@@ -1,5 +1,7 @@
-package pers.xin.iterator;
+package pers.xin.iterator.impl;
 
+import pers.xin.iterator.inter.MyIterable;
+import pers.xin.iterator.inter.MyIterator;
 import pers.xin.iterator.pojo.Book;
 
 public class BookShelf implements MyIterable<Book> {

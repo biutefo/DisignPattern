@@ -1,4 +1,4 @@
-package pers.xin.iterator;
+package pers.xin.iterator.inter;
 
 /**
  * MyIterable 在这里是可迭代的意思

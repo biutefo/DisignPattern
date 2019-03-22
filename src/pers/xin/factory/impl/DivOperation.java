@@ -1,6 +1,7 @@
-package pers.xin.factory;
+package pers.xin.factory.impl;
 
 import lombok.Data;
+import pers.xin.factory.impl.AbstractOperation;
 
 /**
  * 减法操作工具类
@@ -9,7 +10,7 @@ import lombok.Data;
  * @create 2019-03-06 1:24 PM
  **/
 @Data
-public class DivOperation extends AbstractOperation{
+public class DivOperation extends AbstractOperation {
 
 
     @Override

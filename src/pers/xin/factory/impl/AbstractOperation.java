@@ -1,6 +1,7 @@
-package pers.xin.factory;
+package pers.xin.factory.impl;
 
 import lombok.Data;
+import pers.xin.factory.inter.IOperation;
 
 /**
  * 抽象计算工具类
@@ -10,7 +11,7 @@ import lombok.Data;
  **/
 
 @Data
-public abstract class AbstractOperation implements IOperation{
+public abstract class AbstractOperation implements IOperation {
     protected double number1;
     protected double number2;
 

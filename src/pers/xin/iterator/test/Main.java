@@ -1,7 +1,7 @@
 package pers.xin.iterator.test;
 
-import pers.xin.iterator.BookShelf;
-import pers.xin.iterator.MyIterator;
+import pers.xin.iterator.impl.BookShelf;
+import pers.xin.iterator.inter.MyIterator;
 import pers.xin.iterator.pojo.Book;
 
 public class Main {

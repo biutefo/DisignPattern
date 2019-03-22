@@ -1,4 +1,4 @@
-package pers.xin.iterator;
+package pers.xin.iterator.inter;
 
 public interface MyIterator<T> {
     boolean hasNext();

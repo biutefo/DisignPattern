@@ -1,6 +1,7 @@
-package pers.xin.factory;
+package pers.xin.factory.test;
 
-import lombok.Data;
+import pers.xin.factory.impl.AbstractOperation;
+import pers.xin.factory.OpertationFactory;
 
 /**
  * 简单工厂模式实现计算器
@@ -8,11 +9,11 @@ import lombok.Data;
  * @author xin
  * @create 2019-03-06 10:35 AM
  **/
-public class Calculator {
+public class Main {
 
     public static void main(String[] args) {
         AbstractOperation abstractOperation = null;
-        abstractOperation = (AbstractOperation)OpertationFactory.createOperation("*");
+        abstractOperation = (AbstractOperation) OpertationFactory.createOperation("*");
         abstractOperation.setNumber1(1);
         abstractOperation.setNumber2(2);
         double result = abstractOperation.getResult();

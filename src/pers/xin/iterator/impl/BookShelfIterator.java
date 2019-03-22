@@ -1,8 +1,7 @@
-package pers.xin.iterator;
+package pers.xin.iterator.impl;
 
+import pers.xin.iterator.inter.MyIterator;
 import pers.xin.iterator.pojo.Book;
-
-import java.util.Iterator;
 
 public class BookShelfIterator implements MyIterator<Book> {
 
