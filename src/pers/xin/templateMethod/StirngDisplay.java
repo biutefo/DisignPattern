@@ -1,0 +1,37 @@
+package pers.xin.templateMethod;
+
+import pers.xin.templateMethod.abs.AbstractDisplay;
+
+public class StirngDisplay extends AbstractDisplay {
+    private String str;
+    private int width;
+
+    public StirngDisplay(String str) {
+        this.str = str;
+        this.width = str.getBytes().length;
+    }
+
+    @Override
+    public void open() {
+        printLine();
+    }
+
+
+    @Override
+    public void print() {
+        System.out.println("|" + str + "|");
+    }
+
+    @Override
+    public void close() {
+        printLine();
+    }
+
+    private void printLine() {
+        System.out.print("+");
+        for (int i = 0; i < width; i++) {
+            System.out.print("-");
+        }
+        System.out.println("+");
+    }
+}
